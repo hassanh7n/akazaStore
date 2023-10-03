@@ -1,0 +1,18 @@
+.cart{
+    display: flex;
+    padding: 1.5rem;
+    border: red solid 5px;
+    
+}
+.detail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+
+.cart-image{
+    width: 100px;
+    border-radius: 10px;
+}

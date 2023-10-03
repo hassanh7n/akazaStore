@@ -1,0 +1,188 @@
+.wrapper{
+    display: grid;
+    height: 85vh;
+}
+.main-div{
+    gap: 200px;
+    background-image: url('../images/radu-florin-OP8655xgBjo-unsplash-removebg-min.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first ul{
+    display: none;
+}
+.toggle-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.85rem;
+    color: var(--primary-500);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-left: -105px;
+    
+}
+.cart-btn{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.85rem;
+    color: var(--primary-500);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+/* .second{
+    position: relative;
+} */
+.slide{
+    /* display: none; */
+    position: relative;
+    font-size: medium;
+        top: -180px;
+        animation: slide 3s 1 forwards;
+}
+.second a{
+        text-decoration: none;
+        color: var(--primary-500);
+}
+.icn{
+    color: var(--primary-500);
+}
+@media (min-width : 400px){
+    .wrapper{
+        display: grid;
+        height: 70vh;
+    }
+}
+
+@media (min-width: 500px){
+    .btns{
+        margin-left: 0px;
+    }
+    
+}
+
+@media (min-width: 500px){
+    .wrapper{
+        height: 60vh;
+    
+    }
+    .main-div{
+        padding: 20px;
+    }
+    
+}
+@media (min-width: 600px){
+    .wrapper{
+        height: 70vh;
+    
+    }
+}
+@media (min-width: 700px){
+    .wrapper{
+        height: 80vh;
+    
+    }
+    .slide {
+        /* display: block; */
+        position: relative;
+        top: -100px;
+        animation: slide 3s 1 forwards;
+    }
+    .slide{
+        font-size: x-large;
+    }
+}
+@media (min-width: 860px){
+    .wrapper{
+        height: 90vh;
+    
+    }
+}
+@media (min-width: 900px){
+    .wrapper{
+        height: 95vh;
+    
+    }
+}
+
+@media (min-width: 980px){
+    .wrapper{
+        height: 100vh;
+    
+    }
+    .main-div{
+        background-image: url('../images//slide-01.jpg');
+        
+        /* justify-content: flex-start; */
+    }
+    .first{
+        display: flex;
+        flex-direction: row;
+    }
+    .first ul{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        font-size: 1.4rem;
+        margin-left: -330px;
+        margin-top: 5px;
+        
+    }
+    .first ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .toggle-btn {
+        display: none;
+      }
+    .slide{
+        position: relative;
+        top: 0px;
+        animation: slide1 3s 1 forwards;
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+@keyframes slide {
+    0% {
+        left: -70px;
+      }
+      
+      100%{
+          left: -7px;
+      }
+}
+
+@keyframes slide1 {
+    0% {
+        left: -70px;
+      }
+      
+      100%{
+          left: 20px;
+      }
+}

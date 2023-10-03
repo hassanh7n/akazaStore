@@ -1,0 +1,29 @@
+.banner{
+    background-color: var(--clr-primary-10);
+    /* padding-top: 2rem; */
+    padding-bottom: 40rem;
+}
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    background-color: #D3D3D3;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .form-input,
+  .form-select,
+  .btn-block {
+    height: 35px;
+  }
+  .form-row {
+    margin-bottom: 0;
+  }
+  .form-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+  }
